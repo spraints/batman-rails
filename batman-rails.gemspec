@@ -8,15 +8,15 @@ Gem::Specification.new do |s|
   s.authors     = ["John Duff"]
   s.email       = ["john.duff@jadedpixel.com"]
   s.homepage    = "https://github.com/Shopify/batman-rails"
-  s.summary     = %q{Use Batman.js with Rails 3.1}
-  s.description = %q{Quickly get started with Batman.js in a Rails 3.1 app. Provides generators to get started and bundles in the latest version of Batman.js.}
+  s.summary     = %q{Use Batman.js with Rails 3.1+}
+  s.description = %q{Quickly get started with Batman.js in a Rails 3.1+ app. Provides generators to get started and bundles in the latest version of Batman.js.}
 
   s.rubyforge_project = "batman-rails"
 
-  s.add_dependency "railties", "~> 3.1.0"
+  s.add_dependency "railties", ">= 3.1.0"
   s.add_dependency "thor",     "~> 0.14"
   s.add_development_dependency "bundler", "~> 1.0.0"
-  s.add_development_dependency "rails",   "~> 3.1.0"
+  s.add_development_dependency "rails",   ">= 3.1.0"
   s.add_development_dependency "mocha"
   s.add_development_dependency "sqlite3"
 
